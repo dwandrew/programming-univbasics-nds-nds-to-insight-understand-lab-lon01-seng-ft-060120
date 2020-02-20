@@ -11,7 +11,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  
+  inner = 0;
+  while inner<directors_database[name][0][:movies].length do;
+    puts "#{directors_database[name][0][:movies][inner][:title];
+    inner +=1
+  end
 end
 
-pp directors_database
+#pp directors_database
